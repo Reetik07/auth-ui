@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && (if exist \"../auth-build\" rmdir /s /q \"../auth-build\") && xcopy build ..\\auth-build /E /I /H /K /Y",
+    "build": "react-scripts build && (if exist \"../backend/auth-build\" rmdir /s /q \"../backend/auth-build\") && xcopy build ..\\backend\\auth-build /E /I /H /K /Y",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
